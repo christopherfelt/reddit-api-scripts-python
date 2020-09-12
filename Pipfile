@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+praw = "*"
+beautifulsoup4 = "*"
+youtube-dl = "*"
+google-auth-oauthlib = "*"
+google-api-python-client = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.8"
